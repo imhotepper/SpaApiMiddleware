@@ -4,10 +4,10 @@
     <TargetFramework>netstandard2.0</TargetFramework>
 
     <PackageId>SpaApiMiddleware</PackageId>
-    <Version>1.0.0</Version>
-    <Authors>dragos stefanescu</Authors>
-    <Company></Company>
-
+    <Version>1.0.1</Version>
+    <Authors>dragos stefanescu</Authors>    
+    <projectUrl>https://github.com/imhotepper/SpaApiMiddleware</projectUrl>
+    
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
 
 
