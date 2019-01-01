@@ -212,7 +212,7 @@ project.lock.json
 *.feature.cs
 *.feature.xlsx.*
 *.Specs_*.html
-
+ 
 _site
 #####
 # End of core ignore list, below put you custom 'per project' settings (patterns or path)
