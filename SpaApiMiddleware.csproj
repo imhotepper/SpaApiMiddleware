@@ -4,12 +4,11 @@
     <TargetFramework>netstandard2.0</TargetFramework>
 
     <PackageId>SpaApiMiddleware</PackageId>
-    <Version>1.0.1</Version>
+    <Version>1.0.2</Version>
     <Authors>dragos stefanescu</Authors>    
     <projectUrl>https://github.com/imhotepper/SpaApiMiddleware</projectUrl>
-    
+    <description>Enable SPA calls to be served from wwwwroot and only /api calls to go through dotnet core controllers.</description>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-
 
   </PropertyGroup>
 
