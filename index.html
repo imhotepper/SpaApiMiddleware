@@ -39,9 +39,13 @@
             and then in Configure method add: <br> <br>
 
             <blockquote>
-                app.UseSpaApiOnly(indexHtmlPage:"index.html", apiPath:"api");
+                app.UseSpaApiOnly();
             </blockquote>
-
+            or with custom settings: <br><br>
+            <blockquote>
+                    app.UseSpaApiOnly(indexHtmlPage:"index.html", apiPath:"api");
+            </blockquote>
+    
             Both apiPath and indexHtmlPage are optional parameters.
         </p>
 
