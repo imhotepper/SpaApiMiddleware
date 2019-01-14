@@ -21,13 +21,15 @@
         <!-- <h2>What is</h2> -->
 
         <p> 
-            This middleware will preserve the SPA (single page application) navigation and functionality when the deep link of any page 
+            This middleware will preserve the SPA navigation and functionality when the deep link of any page 
             is sent via email or other communication tools. It will also preserve it when 
             the page is refreshed in the browser.
 
         </p>
         <p hidden>Enable SPA calls to be served from wwwwroot and only /api calls to go through dotnet core controllers.</p>
 
+        <h2>Requirements</h2>
+        <p>SPA served from wwwroot folder of a .Net Core 2 Api project.</p>
         <!--
         <iframe src="https://ghbtns.com/github-btn.html?user=imhotepper&amp;repo=SpaApiMiddleware&amp;type=watch&amp;count=true&amp;size=large"
             allowtransparency="true" frameborder="0" scrolling="0" width="170" height="30">
@@ -52,7 +54,9 @@
             </blockquote>
             or with custom settings: <br><br>
             <blockquote>
-                    app.UseSpaApiOnly(indexHtmlPage:"index.html", apiPath:"api");
+                    app.UseSpaApiOnly(
+                        indexHtmlPage:"index.html", 
+                        apiPath:"api");
             </blockquote>
     
             Both apiPath and indexHtmlPage are optional parameters.
